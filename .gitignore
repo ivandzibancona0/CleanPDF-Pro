@@ -1,0 +1,44 @@
+# Bytecode y caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# PyInstaller y compilación
+build/
+dist/
+*.manifest
+*.spec
+
+# Archivos ejecutables y binarios pesados (>100MB no permitidos en GitHub)
+*.exe
+
+# Documentos PDF (privacidad: previene subir PDFs personales o procesados)
+*.pdf
+
+# Registros y archivos temporales
+*.log
+*.tmp
+*.bak
+
+# Configuraciones de editores e IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos del sistema operativo (Windows / macOS)
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+.DS_Store
